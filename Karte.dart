@@ -17,6 +17,16 @@ class Karte extends StatelessWidget {
           urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
           userAgentPackageName: 'com.example.app',
         ),
+        MarkerLayer(
+          markers: [
+            Marker(
+              point: LatLng(53.1435001, 8.2146),
+              width: 80,
+              height: 80,
+              child: Image.asset('bilder/marker.png'),
+            ),
+          ],
+        ),
       ],
     );
   }
