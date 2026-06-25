@@ -136,28 +136,6 @@ class _zuorteState extends State<zuorte> {
   }
 }
 
-class zuPers extends StatefulWidget {
-  const zuPers({super.key});
-
-  @override
-  State<zuPers> createState() => _zuPersState();
-}
-
-class _zuPersState extends State<zuPers> {
-  @override
-  Widget build(BuildContext context) {
-    return IconButton(
-      icon: Image.asset('bilder/IMG_3099.png', width: 100, height: 100),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const Placeholder()),
-        );
-      },
-    );
-  }
-}
-
 
 class zuPers extends StatefulWidget {
   const zuPers({super.key});
