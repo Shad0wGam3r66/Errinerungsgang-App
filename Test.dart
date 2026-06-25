@@ -10,8 +10,8 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Archiv'),
-        backgroundColor: Colors.blueAccent,
+        title: const Text('Judentum in Oldenburg'),
+        backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/burgerMenu.png', width: 70, height: 70),
           onPressed: () {
@@ -22,23 +22,34 @@ class Test extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
+          SizedBox(height: 130),
           Center(child: Text('Archiv', style: TextStyle(
             fontSize: 60,
+            color: Color.fromARGB(255, 255, 255, 255),
           ))),
-          SizedBox(height:30),
-          Text('Orte'),
-          SizedBox(height: 30),
+          //SizedBox(height:30),
+          
+          //SizedBox(height: 30),
           zuorte(),
-          SizedBox(height: 30),
-          Text('Personen'),
-          SizedBox(height: 30),
+          Text('Orte', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
+          //SizedBox(height: 30),
+          
+          //SizedBox(height: 30),
           zuPers(),
+          Text('Personen', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+        color: const Color(0xFFF7E788),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
