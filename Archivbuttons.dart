@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Orte.dart';
 import 'package:test_1/Pages/Orteseiten.dart';
-import 'package:test_1/pages/Personen.dart';
-import 'package:test_1/pages/Personenseiten.dart';
-
+import 'package:test_1/Pages/Personen.dart';
+import 'package:test_1/Pages/Personenseiten.dart' 
+ hide seiteSynagoge, seiteGefaengnis;
 class Kaserne extends StatefulWidget {
   const Kaserne({super.key});
 
@@ -125,7 +125,7 @@ class _zuorteState extends State<zuorte> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/gebaeudeIconPre.png', width: 100, height: 100),
+      icon: Image.asset('bilder/Marker.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
@@ -135,7 +135,6 @@ class _zuorteState extends State<zuorte> {
     );
   }
 }
-
 
 class zuPers extends StatefulWidget {
   const zuPers({super.key});
@@ -148,7 +147,7 @@ class _zuPersState extends State<zuPers> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/personIcon.png', width: 100, height: 100),
+      icon: Image.asset('bilder/IMG_3099.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
@@ -248,3 +247,25 @@ class _LeviIsraelUfferfilgeState extends State<LeviIsraelUfferfilge> {
   }
 }
 
+
+class NatanelOlhoeft extends StatefulWidget {
+  const NatanelOlhoeft({super.key});
+
+  @override
+  State<NatanelOlhoeft> createState() => _NatanelOlhoeftState();
+}
+
+class _NatanelOlhoeftState extends State<NatanelOlhoeft> {
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      child: Text('Natanel Olhoeft'),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const seiteNatanelOlhoeft()),
+        );
+      },
+    );
+  }
+}
