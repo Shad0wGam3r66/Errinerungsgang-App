@@ -38,6 +38,8 @@ class Personen extends StatelessWidget {
           LeoTrepp(),
           SizedBox(height: 50),
           LeviIsraelUfferfilge(),
+          SizedBox(height: 50),
+          NatanelOlhoeft(),
         ],
         
       ),
