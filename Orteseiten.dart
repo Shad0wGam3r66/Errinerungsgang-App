@@ -23,25 +23,116 @@ class seitekaserne extends StatelessWidget {
                 );
               },
             ),
-            IconButton(
-              icon: Image.asset('bilder/'),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Placeholder()),
-                 );
-                },
-              ),
           ],
         )
       ),
-      body: Column(
-        children: [
-          Text('Kaserne', style: TextStyle(
-            fontSize: 60,
-          )),
-        ],
+      body: Row(
+        children:[
+      
+          Column(
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 450,),
+                  Text('Kaserne', style: TextStyle(
+                    fontSize: 40,
+                    fontWeight: FontWeight.bold,
+                  )),
+                  SizedBox(width: 30, height: 75,),
+                ],
+              ),
+              Text('Polizeikaserne frueher', style: TextStyle(
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+              )),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('Die Polizeikaserne am Pferdemarkt in Oldenburg diente schon während des Kaiserreichs und der Weimarer Republik als zentraler Standort', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('der Landespolizei zu Oldenburg. Nach der Machtübernahme der Nationalsozialisten im Jahr 1933 wurde die Polizeikaserne von der Reichs-', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('polizei, gleichzeitig aber auch von der Sturmabteilung (SA) und später von der Schutzstaffel (SS) nach der Auflösung der SA genutzt.', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('Nach der Reichsprogromnacht vom 9. auf den 10. November 1938 wurden vor dieser Polizeikaserne sämtliche jüdische Männer aus Oldenburg', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('versammelt und später in das Gefängnis im Gerichtsviertel getrieben.', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 75,),
+                  Text('Polizeikaserne heute', style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  )),
+                ],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('Nach dem Zweiten Weltkrieg wurde die Polizeikaserne nicht weiter von der Polizei, sondern zuerst als Verwaltungsgebäude genutzt.  Seit 1987', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('nutzt die Landesbibliothek zu Oldenburg die ehemalige Polizeikaserne als zentralen Standort. Die Landesbibliothek verfügt über eine große', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('Sammlung an historischen Werken, aber auch über Werke der aktuellen naturwissenschaftlichen Erkenntnisse. Außerdem bietet die Landes-', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+              Row(
+                children: [
+                  SizedBox(width: 100, height: 50,),
+                  Text('bibliothek Schulungen zu Literaturrecherche und Ahnenforschung an.', style: TextStyle(
+                  fontSize: 20,
+                )),],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              Row(
+                children: [SizedBox(width: 80,),
+                  Image.asset('bilder/PolizeiKasernefrueher.png', width: 370, height: 370),],
+              ),
+              Row(
+                children: [SizedBox(width: 80,),
+                  Image.asset('bilder/Polizeikaserneheute.png', width: 370, height: 370),],
+              )
+          ],),
+        ]
       ),
+      
       bottomNavigationBar: BottomAppBar(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
