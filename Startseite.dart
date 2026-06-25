@@ -10,23 +10,34 @@ class Start extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Judentum in Oldenburg'),
-              backgroundColor: Color.fromARGB(125, 247, 231, 136),
+              backgroundColor: Color.fromARGB(255, 247, 231, 136),
+        automaticallyImplyLeading: false,
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           SizedBox(height: 130),
           Center(child: Text('Judentum in Oldenburg', style: TextStyle(
             fontSize: 60,
+            color: Color.fromARGB(255, 255, 255, 255),
 
           ))),
           Karteauf(),
-          Text('Interaktive Karte der jüdischen Gemeinde in Oldenburg'),
+          Text('Interaktive Karte der jüdischen Gemeinde in Oldenburg', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+
+          )),
           Informationenauf(),
-          Text('Informationen'),
+          Text('Informationen',style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+
+          )),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+          color: const Color(0xFFF7E788),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
