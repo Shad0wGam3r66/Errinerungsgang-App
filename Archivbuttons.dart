@@ -125,7 +125,7 @@ class _zuorteState extends State<zuorte> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/Marker.png', width: 100, height: 100),
+      icon: Image.asset('bilder/gebaeudeIconPre.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
