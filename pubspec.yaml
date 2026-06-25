@@ -78,6 +78,7 @@ flutter:
     - bilder/SamsonRaphaelHirsch2.jpg
     - bilder/LeoTrepp1.jpeg
     - bilder/LeoTrepp2.jpg
+    - bilder/questionmarkIcon.png
   # An image asset can refe
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
