@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Orte.dart';
 import 'package:test_1/Pages/Orteseiten.dart';
+import 'package:test_1/pages/Personen.dart';
+import 'package:test_1/pages/Personenseiten.dart';
 
 class Kaserne extends StatefulWidget {
   const Kaserne({super.key});
