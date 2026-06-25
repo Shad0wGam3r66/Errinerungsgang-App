@@ -148,7 +148,7 @@ class _zuPersState extends State<zuPers> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/IMG_3099.png', width: 100, height: 100),
+      icon: Image.asset('bilder/personIcon.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
