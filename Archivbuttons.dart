@@ -155,3 +155,116 @@ class _zuPersState extends State<zuPers> {
     );
   }
 }
+
+
+class zuPers extends StatefulWidget {
+  const zuPers({super.key});
+
+  @override
+  State<zuPers> createState() => _zuPersState();
+}
+
+class _zuPersState extends State<zuPers> {
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      icon: Image.asset('bilder/IMG_3099.png', width: 100, height: 100),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) =>  Personen()),
+        );
+      },
+    );
+  }
+}
+
+
+class CarlRoever extends StatefulWidget {
+  const CarlRoever({super.key});
+
+  @override
+  State<CarlRoever> createState() => _CarlRoeverState();
+}
+
+class _CarlRoeverState extends State<CarlRoever> {
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      child: Text('Carl Roever'),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const seiteCarlRoever()),
+        );
+      },
+    );
+  }
+}
+
+class SamsonRaphaelHirsch extends StatefulWidget {
+  const SamsonRaphaelHirsch({super.key});
+
+  @override
+  State<SamsonRaphaelHirsch> createState() => _SamsonRaphaelHirschState();
+}
+
+class _SamsonRaphaelHirschState extends State<SamsonRaphaelHirsch> {
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      child: Text('Samson Raphael Hirsch'),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const seiteSamsonRaphaelHirsch()),
+        );
+      },
+    );
+  }
+}
+
+class LeoTrepp extends StatefulWidget {
+  const LeoTrepp({super.key});
+
+  @override
+  State<LeoTrepp> createState() => _LeoTreppState();
+}
+
+class _LeoTreppState extends State<LeoTrepp> {
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      child: Text('Leo Trepp'),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const seiteLeoTrepp()),
+        );
+      },
+    );
+  }
+}
+
+class LeviIsraelUfferfilge extends StatefulWidget {
+  const LeviIsraelUfferfilge({super.key});
+
+  @override
+  State<LeviIsraelUfferfilge> createState() => _LeviIsraelUfferfilgeState();
+}
+
+class _LeviIsraelUfferfilgeState extends State<LeviIsraelUfferfilge> {
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      child: Text('Levi Israel Ufferfilge'),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const seiteLeviIsraelUfferfilge()),
+        );
+      },
+    );
+  }
+}
+
