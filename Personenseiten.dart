@@ -204,11 +204,58 @@ class seiteLeoTrepp extends StatelessWidget {
           },
         ),
       ),
-      body: Column(
+       body: Column(
         children: [
           Text('Leo Trepp', style: TextStyle(
             fontSize: 60,
           )),
+          SizedBox(height: 50),
+          Row(
+            children: [
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text('Samson Raphael Hirsch (1808–1888) war ein bedeutender Rabbiner und einer der einflussreichsten Vertreter der jüdischen Neo-Orthodoxie im 19. Jahrhundert. Von 1830 bis 1841 wirkte er als Landesrabbiner des Herzogtums Oldenburg. In dieser Zeit setzte er sich für eine Erneuerung des jüdischen Gemeindelebens ein, ohne dabei die traditionellen religiösen Grundlagen aufzugeben.', 
+                    style: TextStyle(
+                      fontSize: 20,)
+                    ),
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/LeoTrepp1.jpeg', width: 300, height: 300),
+                ),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Expanded(
+                flex: 1,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/LeoTrepp2.jpg', width: 300, height: 300),
+                ),
+              ),
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text('Hirsch vertrat die Auffassung, dass sich jüdische Gläubige aktiv am gesellschaftlichen und kulturellen Leben ihrer Zeit beteiligen sollten, während sie gleichzeitig die Gebote und Traditionen des Judentums bewahren. Dieses Konzept wurde später unter dem Leitsatz „Tora im Derech Eretz“ („Tora im Einklang mit dem weltlichen Leben“) bekannt. Im Gegensatz zu den Reformrabbinern seiner Zeit strebte Hirsch keine grundlegende Veränderung religiöser Vorschriften an. Stattdessen wollte er zeigen, dass traditionelle jüdische Lebensweise und moderne Bildung miteinander vereinbar sind. Durch seine Schriften und sein Wirken prägte er das orthodoxe Judentum weit über Deutschland hinaus und gilt bis heute als eine seiner wichtigsten Persönlichkeiten.', 
+                    style: TextStyle(
+                      fontSize: 20,)
+                    ),
+                ),
+              ),
+            ],
+          )
         ],
       ),
       bottomNavigationBar: BottomAppBar(
