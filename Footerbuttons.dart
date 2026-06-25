@@ -59,7 +59,7 @@ class _QuallenState extends State<Quallen> {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Placeholder()),
+          MaterialPageRoute(builder: (context) => const Quallen()),
         );
       },
     );
