@@ -395,7 +395,7 @@ class seiteNatanelOlhoeft extends StatelessWidget {
                 child: 
                   Padding(
                     padding: EdgeInsets.all(10),
-                    child: Text('Rabbi Levi Israel Ufferfilge ist seit Ende 2024 Rabbiner der Jüdischen Gemeinde zu Oldenburg und des Leo-Trepp-Lehrhauses. Der in Minden geborene Judaist, Jiddist und Religionspädagoge wurde 2024 zum Rabbiner ordiniert und engagiert sich besonders für Bildung, jüdische Sichtbarkeit und den interreligiösen Dialog. In der Oldenburger Gemeinde betreut er Gottesdienste, Bildungsangebote sowie die seelsorgerische Begleitung der Gemeindemitglieder.', 
+                    child: Text('Rabbi Natanel (Netanel) Olhoeft ist seit 2025 Rabbiner der Jüdischen Gemeinde zu Oldenburg und gehört zur Masorti-Bewegung. Der 1994 in Berlin geborene Gelehrte wurde 2020 am Zacharias Frankel College in Potsdam zum Rabbiner ordiniert und ist zugleich wissenschaftlicher Mitarbeiter im Bereich Halacha (Jüdisches Recht) an der Universität Potsdam. In der Oldenburger Gemeinde engagiert er sich besonders für religiöse Bildung, Gottesdienste, Seelsorge und die Vermittlung jüdischer Tradition.', 
                     style: TextStyle(
                       fontSize: 20,)
                     ),
@@ -426,7 +426,7 @@ class seiteNatanelOlhoeft extends StatelessWidget {
                 child: 
                   Padding(
                     padding: EdgeInsets.all(10),
-                    child: Text('Gemeinsam mit seinem Rabbinatskollegen stärkt er das religiöse und kulturelle Leben der Gemeinde und baut das Lehr- und Kursangebot weiter aus. Darüber hinaus vertritt er die jüdische Gemeinschaft in der Öffentlichkeit, etwa durch Vorträge, Schulbesuche und kulturelle Veranstaltungen. Damit leistet Rabbi Ufferfilge einen wichtigen Beitrag zur lebendigen Gegenwart und Zukunft jüdischen Lebens in Oldenburg.', 
+                    child: Text(' Unter seiner Mitwirkung hat sich die Gemeinde als „lernende Gemeinde“ weiterentwickelt, in der regelmäßige Lehrveranstaltungen, Sprachkurse und Bildungsangebote eine wichtige Rolle spielen. Gemeinsam mit Rabbi Levi Israel Ufferfilge bildet er die rabbinische Doppelspitze der Gemeinde und stärkt damit das jüdische Leben in Oldenburg und der gesamten Region Nordwestdeutschlands. Darüber hinaus vertritt er die Gemeinde bei öffentlichen Veranstaltungen und fördert den Dialog zwischen jüdischen und nichtjüdischen Menschen. Mit seinem Engagement trägt Rabbi Olhoeft wesentlich zur religiösen und kulturellen Zukunft der Jüdischen Gemeinde zu Oldenburg bei.', 
                     style: TextStyle(
                       fontSize: 20,)
                     ),
