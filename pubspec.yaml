@@ -70,6 +70,19 @@ flutter:
     - bilder/Marker.png
     - bilder/xToExit.png
     - bilder/lexikonIcon.png
+    - bilder/PolizeiKasernefrueher.png
+    - bilder/Polizeikaserneheute.png
+    - bilder/juedischeSchulefrueher.png
+    - bilder/juedischeSchuleheute1.png
+    - bilder/juedischeSchuleheute2.png
+    - bilder/Bahnhoffrueher1.png
+    - bilder/Bahnhoffrueher2.png
+    - bilder/Bahnhofheute.png
+    - bilder/Synagogefrueher.png
+    - bilder/Synagogeheute.png
+    - bilder/Gefaengnisfrueher1.png
+    - bilder/Gefaengnisfrueher2.png
+    - bilder/Gefaengnisheute.png
     - bilder/personIcon.png
     - bilder/gebaeudeIconPre.png
     - bilder/Carl_Roever_1.jpg
