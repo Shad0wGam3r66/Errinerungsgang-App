@@ -26,111 +26,59 @@ class seitekaserne extends StatelessWidget {
           ],
         )
       ),
-      body: Row(
-        children:[
-      
-          Column(
+      body: Column(
+        children: [
+          Text('Carl Roever', style: TextStyle(
+            fontSize: 60,
+          )),
+          SizedBox(height: 50),
+          Row(
             children: [
-              Row(
-                children: [
-                  SizedBox(width: 450,),
-                  Text('Kaserne', style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                  )),
-                  SizedBox(width: 30, height: 75,),
-                ],
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text('Carl Röver war ein führender Nationalsozialist in Oldenburg und spielte eine wichtige Rolle beim Aufbau und der Festigung der NS-Herrschaft in der Region. Bereits früh trat er der NSDAP bei und wurde später Ministerpräsident des Freistaates Oldenburg sowie Gauleiter des Gaues Weser-Ems. Unter seiner Führung wurden politische Gegner verfolgt und die nationalsozialistische Ideologie in Verwaltung und Gesellschaft durchgesetzt.', 
+                    style: TextStyle(
+                      fontSize: 20,)
+                    ),
+                ),
               ),
-              Text('Polizeikaserne frueher', style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-              )),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('Die Polizeikaserne am Pferdemarkt in Oldenburg diente schon während des Kaiserreichs und der Weimarer Republik als zentraler Standort', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('der Landespolizei zu Oldenburg. Nach der Machtübernahme der Nationalsozialisten im Jahr 1933 wurde die Polizeikaserne von der Reichs-', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('polizei, gleichzeitig aber auch von der Sturmabteilung (SA) und später von der Schutzstaffel (SS) nach der Auflösung der SA genutzt.', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('Nach der Reichsprogromnacht vom 9. auf den 10. November 1938 wurden vor dieser Polizeikaserne sämtliche jüdische Männer aus Oldenburg', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('versammelt und später in das Gefängnis im Gerichtsviertel getrieben.', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 75,),
-                  Text('Polizeikaserne heute', style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold,
-                  )),
-                ],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('Nach dem Zweiten Weltkrieg wurde die Polizeikaserne nicht weiter von der Polizei, sondern zuerst als Verwaltungsgebäude genutzt.  Seit 1987', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('nutzt die Landesbibliothek zu Oldenburg die ehemalige Polizeikaserne als zentralen Standort. Die Landesbibliothek verfügt über eine große', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('Sammlung an historischen Werken, aber auch über Werke der aktuellen naturwissenschaftlichen Erkenntnisse. Außerdem bietet die Landes-', style: TextStyle(
-                  fontSize: 20,
-                )),],
-              ),
-              Row(
-                children: [
-                  SizedBox(width: 100, height: 50,),
-                  Text('bibliothek Schulungen zu Literaturrecherche und Ahnenforschung an.', style: TextStyle(
-                  fontSize: 20,
-                )),],
+              Expanded(
+                flex: 1,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/Carl_Roever_1.jpg', width: 300, height: 300),
+                ),
               ),
             ],
           ),
-          Column(
+          Row(
             children: [
-              Row(
-                children: [SizedBox(width: 80,),
-                  Image.asset('bilder/PolizeiKasernefrueher.png', width: 370, height: 370),],
+              Expanded(
+                flex: 1,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/Carl_Roever_2.jpg', width: 300, height: 300),
+                ),
               ),
-              Row(
-                children: [SizedBox(width: 80,),
-                  Image.asset('bilder/Polizeikaserneheute.png', width: 370, height: 370),],
-              )
-          ],),
-        ]
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text('Röver unterstützte die Ausgrenzung und Verfolgung der jüdischen Bevölkerung sowie anderer vom Regime verfolgter Gruppen. Während der Zeit des Nationalsozialismus gehörte er zu den einflussreichsten Politikern Nordwestdeutschlands. Er starb 1942 während des Zweiten Weltkrieg angeblich an einer "Lungenentzündung", wobei es auch Gerüchte, um einen Euthanasie-Mord beziehungsweise Suizid gibt.', 
+                    style: TextStyle(
+                      fontSize: 20,)
+                    ),
+                ),
+              ),
+            ],
+          )
+        ],
       ),
       
       bottomNavigationBar: BottomAppBar(
