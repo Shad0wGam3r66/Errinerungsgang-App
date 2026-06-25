@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Orte.dart';
 import 'package:test_1/Pages/Orteseiten.dart';
-import 'package:test_1/Pages/Personen.dart';
-import 'package:test_1/Pages/Personenseiten.dart' 
- hide seiteSynagoge, seiteGefaengnis;
+import 'package:test_1/pages/Personen.dart';
+import 'package:test_1/pages/Personenseiten.dart';
+
 class Kaserne extends StatefulWidget {
   const Kaserne({super.key});
 
@@ -15,7 +15,10 @@ class _KaserneState extends State<Kaserne> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Kaserne'),
+      child: Text('Kaserne', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -37,7 +40,10 @@ class _SchuleState extends State<Schule> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Schule'),
+      child: Text('Schule', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -59,7 +65,10 @@ class _BahnhofState extends State<Bahnhof> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Bahnhof'),
+      child: Text('Bahnhof', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -81,7 +90,11 @@ class _SynagogeState extends State<Synagoge> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Synagoge'),
+      child: Text('Synagoge',
+        style: TextStyle(
+          fontSize: 20,
+          color: Color.fromARGB(255, 255, 255, 255),
+        )),
       onPressed: () {
         Navigator.push(
           context,
@@ -103,7 +116,10 @@ class _GefaengnisState extends State<Gefaengnis> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Gefängnis'),
+      child: Text('Gefängnis', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -125,7 +141,7 @@ class _zuorteState extends State<zuorte> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/Marker.png', width: 100, height: 100),
+      icon: Image.asset('bilder/gebaeudeIconPre.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
@@ -135,6 +151,7 @@ class _zuorteState extends State<zuorte> {
     );
   }
 }
+
 
 class zuPers extends StatefulWidget {
   const zuPers({super.key});
@@ -147,7 +164,7 @@ class _zuPersState extends State<zuPers> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Image.asset('bilder/IMG_3099.png', width: 100, height: 100),
+      icon: Image.asset('bilder/personIcon.png', width: 100, height: 100),
       onPressed: () {
         Navigator.push(
           context,
@@ -170,7 +187,10 @@ class _CarlRoeverState extends State<CarlRoever> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Carl Roever'),
+      child: Text('Carl Roever',style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -192,7 +212,10 @@ class _SamsonRaphaelHirschState extends State<SamsonRaphaelHirsch> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Samson Raphael Hirsch'),
+      child: Text('Samson Raphael Hirsch', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -214,7 +237,10 @@ class _LeoTreppState extends State<LeoTrepp> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Leo Trepp'),
+      child: Text('Leo Trepp', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
@@ -236,34 +262,14 @@ class _LeviIsraelUfferfilgeState extends State<LeviIsraelUfferfilge> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Levi Israel Ufferfilge'),
+      child: Text('Levi Israel Ufferfilge', style: TextStyle(
+        fontSize: 20,
+        color: Color.fromARGB(255, 255, 255, 255),
+      )),
       onPressed: () {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const seiteLeviIsraelUfferfilge()),
-        );
-      },
-    );
-  }
-}
-
-
-class NatanelOlhoeft extends StatefulWidget {
-  const NatanelOlhoeft({super.key});
-
-  @override
-  State<NatanelOlhoeft> createState() => _NatanelOlhoeftState();
-}
-
-class _NatanelOlhoeftState extends State<NatanelOlhoeft> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Natanel Olhoeft'),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteNatanelOlhoeft()),
         );
       },
     );
