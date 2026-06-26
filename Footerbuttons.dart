@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Quallen.dart';
 import 'package:test_1/Pages/Erpressum.dart';
+import 'package:test_1/Pages/Datenschmutz.dart';
 
 class Impressum extends StatefulWidget {
   const Impressum({super.key});
@@ -39,7 +40,7 @@ class _DatenschmutzState extends State<Datenschmutz> {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Placeholder()),
+          MaterialPageRoute(builder: (context) => const Datenschmutz()),
         );
       },
     );
