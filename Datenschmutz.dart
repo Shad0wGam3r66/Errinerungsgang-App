@@ -5,8 +5,8 @@ import 'package:test_1/materials/Footerbuttons.dart';
 
 
 
-class Datenschmutz extends StatelessWidget {
-  const Datenschmutz({super.key});
+class DatenschmutzSeiten extends StatelessWidget {
+  const DatenschmutzSeiten({super.key});
 
   @override
   Widget build(BuildContext context) {
