@@ -1,275 +1,66 @@
 import 'package:flutter/material.dart';
-import 'package:test_1/Pages/Orte.dart';
-import 'package:test_1/Pages/Orteseiten.dart';
-import 'package:test_1/pages/Personen.dart';
-import 'package:test_1/pages/Personenseiten.dart';
+import 'package:test_1/Pages/Quallen.dart';
 
-class Kaserne extends StatefulWidget {
-  const Kaserne({super.key});
+class Impressum extends StatefulWidget {
+  const Impressum({super.key});
 
   @override
-  State<Kaserne> createState() => _KaserneState();
+  State<Impressum> createState() => _ImpressumState();
 }
 
-class _KaserneState extends State<Kaserne> {
+class _ImpressumState extends State<Impressum> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Kaserne', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
+      child: Text('Erpressung'),
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const seitekaserne()),
+          MaterialPageRoute(builder: (context) => const Placeholder()),
         );
       },
-    );
+    ); //Impressum
   }
 }
 
-class Schule extends StatefulWidget {
-  const Schule({super.key});
+class Datenschmutz extends StatefulWidget {
+  const Datenschmutz({super.key});
 
   @override
-  State<Schule> createState() => _SchuleState();
+  State<Datenschmutz> createState() => _DatenschmutzState();
 }
 
-class _SchuleState extends State<Schule> {
+class _DatenschmutzState extends State<Datenschmutz> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Schule', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
+      child: Text('Datenschmutz'),
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const seiteSchule()),
+          MaterialPageRoute(builder: (context) => const Placeholder()),
         );
       },
     );
   }
 }
 
-class Bahnhof extends StatefulWidget {
-  const Bahnhof({super.key});
+class Quallen extends StatefulWidget {
+  const Quallen({super.key});
 
   @override
-  State<Bahnhof> createState() => _BahnhofState();
+  State<Quallen> createState() => _QuallenState();
 }
 
-class _BahnhofState extends State<Bahnhof> {
+class _QuallenState extends State<Quallen> {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      child: Text('Bahnhof', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
+      child: Text('Quallen'),
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const seiteBahnhof()),
-        );
-      },
-    );
-  }
-}
-
-class  Synagoge extends StatefulWidget {
-  const Synagoge({super.key});
-
-  @override
-  State<Synagoge> createState() => _SynagogeState();
-}
-
-class _SynagogeState extends State<Synagoge> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Synagoge',
-        style: TextStyle(
-          fontSize: 20,
-          color: Color.fromARGB(255, 255, 255, 255),
-        )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteSynagoge()),
-        );
-      },
-    );
-  }
-}
-
-class Gefaengnis extends StatefulWidget {
-  const Gefaengnis({super.key});
-
-  @override
-  State<Gefaengnis> createState() => _GefaengnisState();
-}
-
-class _GefaengnisState extends State<Gefaengnis> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Gefängnis', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteGefaengnis()),
-        );
-      },
-    );
-  }
-}
-
-class zuorte extends StatefulWidget {
-  const zuorte({super.key});
-
-  @override
-  State<zuorte> createState() => _zuorteState();
-}
-
-class _zuorteState extends State<zuorte> {
-  @override
-  Widget build(BuildContext context) {
-    return IconButton(
-      icon: Image.asset('bilder/gebaeudeIconPre.png', width: 100, height: 100),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Orte()),
-        );
-      },
-    );
-  }
-}
-
-
-class zuPers extends StatefulWidget {
-  const zuPers({super.key});
-
-  @override
-  State<zuPers> createState() => _zuPersState();
-}
-
-class _zuPersState extends State<zuPers> {
-  @override
-  Widget build(BuildContext context) {
-    return IconButton(
-      icon: Image.asset('bilder/personIcon.png', width: 100, height: 100),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) =>  Personen()),
-        );
-      },
-    );
-  }
-}
-
-
-class CarlRoever extends StatefulWidget {
-  const CarlRoever({super.key});
-
-  @override
-  State<CarlRoever> createState() => _CarlRoeverState();
-}
-
-class _CarlRoeverState extends State<CarlRoever> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Carl Roever',style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteCarlRoever()),
-        );
-      },
-    );
-  }
-}
-
-class SamsonRaphaelHirsch extends StatefulWidget {
-  const SamsonRaphaelHirsch({super.key});
-
-  @override
-  State<SamsonRaphaelHirsch> createState() => _SamsonRaphaelHirschState();
-}
-
-class _SamsonRaphaelHirschState extends State<SamsonRaphaelHirsch> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Samson Raphael Hirsch', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteSamsonRaphaelHirsch()),
-        );
-      },
-    );
-  }
-}
-
-class LeoTrepp extends StatefulWidget {
-  const LeoTrepp({super.key});
-
-  @override
-  State<LeoTrepp> createState() => _LeoTreppState();
-}
-
-class _LeoTreppState extends State<LeoTrepp> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Leo Trepp', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteLeoTrepp()),
-        );
-      },
-    );
-  }
-}
-
-class LeviIsraelUfferfilge extends StatefulWidget {
-  const LeviIsraelUfferfilge({super.key});
-
-  @override
-  State<LeviIsraelUfferfilge> createState() => _LeviIsraelUfferfilgeState();
-}
-
-class _LeviIsraelUfferfilgeState extends State<LeviIsraelUfferfilge> {
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-      child: Text('Levi Israel Ufferfilge', style: TextStyle(
-        fontSize: 20,
-        color: Color.fromARGB(255, 255, 255, 255),
-      )),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const seiteLeviIsraelUfferfilge()),
+          MaterialPageRoute(builder: (context) => const QuallenSeiten()),
         );
       },
     );
