@@ -119,7 +119,7 @@ class seiteSamsonRaphaelHirsch extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           Text('Samson Raphael Hirsch', style: TextStyle(
@@ -212,7 +212,7 @@ class seiteLeoTrepp extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           Text('Leo Trepp', style: TextStyle(
@@ -305,7 +305,7 @@ class seiteLeviIsraelUfferfilge extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           Text('Levi Israel Ufferfilge', style: TextStyle(
@@ -398,7 +398,7 @@ class seiteNatanelOlhoeft extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           Text('Natanel Olhoeft', style: TextStyle(
