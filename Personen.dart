@@ -44,6 +44,7 @@ class Personen extends StatelessWidget {
         
       ),
       bottomNavigationBar: BottomAppBar(
+        color: const Color(0xFFF7E788),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
