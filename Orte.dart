@@ -46,7 +46,7 @@ class Orte extends StatelessWidget {
         
       ),
       bottomNavigationBar: BottomAppBar(
-        color: const Color(0xFFF7E788),
+        color: Color.fromARGB(255, 247, 231, 136),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
