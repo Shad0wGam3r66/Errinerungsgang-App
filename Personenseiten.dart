@@ -85,6 +85,7 @@ class seiteCarlRoever extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+          color: Color.fromARGB(255, 247, 231, 136),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
@@ -108,7 +109,7 @@ class seiteSamsonRaphaelHirsch extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Samson Raphael Hirsch'),
-        backgroundColor: Color.fromARGB(125, 247, 231, 136),
+        backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/xToExit.png', width: 70, height: 70),
           onPressed: () {
@@ -178,6 +179,7 @@ class seiteSamsonRaphaelHirsch extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+          color: Color.fromARGB(255, 247, 231, 136),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
@@ -201,7 +203,7 @@ class seiteLeoTrepp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Leo Trepp'),
-        backgroundColor: Color.fromARGB(125, 247, 231, 136),
+        backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/xToExit.png', width: 70, height: 70),
           onPressed: () {
@@ -271,6 +273,7 @@ class seiteLeoTrepp extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+          color: Color.fromARGB(255, 247, 231, 136),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
@@ -294,7 +297,7 @@ class seiteLeviIsraelUfferfilge extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Levi Israel Ufferfilge'),
-        backgroundColor: Color.fromARGB(125, 247, 231, 136),
+        backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/xToExit.png', width: 70, height: 70),
           onPressed: () {
@@ -364,6 +367,7 @@ class seiteLeviIsraelUfferfilge extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomAppBar(
+          color: Color.fromARGB(255, 247, 231, 136),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
@@ -387,7 +391,7 @@ class seiteNatanelOlhoeft extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Natanel Olhoeft'),
-        backgroundColor: Color.fromARGB(125, 247, 231, 136),
+        backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/xToExit.png', width: 70, height: 70),
           onPressed: () {
