@@ -40,7 +40,7 @@ class _DatenschmutzState extends State<Datenschmutz> {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Datenschmutz()),
+          MaterialPageRoute(builder: (context) => const DatenschmutzSeiten()),
         );
       },
     );
