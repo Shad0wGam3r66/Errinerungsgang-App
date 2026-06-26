@@ -21,7 +21,8 @@ class QuallenSeiten extends StatelessWidget {
         ),
       ),
       backgroundColor: Color.fromARGB(255, 72, 69, 64),
-      body: Column(
+      body: SingleChildScrollView(
+        child:Column(
         children: [
           Text('Quellen sind eine Qual, deswegen sind hier Quallen.', style: TextStyle(
             fontSize: 60,
@@ -72,9 +73,28 @@ class QuallenSeiten extends StatelessWidget {
               ),
             ]
           ),
-          
+          Text('Das währe jedoch nicht unsere Aufgabenstellung, deshalb sind hier unsere Quellen:', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
+          Text('- Google Bildersuche', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
+          Text('- Ago Lehrkräfte', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
+          Text('- Vorwissen', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
+          Text('-  OpenStreetMap', style: TextStyle(
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+          )),
         ],
       ),
-    );
+    ));
   }
 }
