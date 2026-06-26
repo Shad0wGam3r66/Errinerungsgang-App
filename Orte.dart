@@ -13,7 +13,7 @@ class Orte extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Judentum in Oldenburg'),
-              backgroundColor: Color.fromARGB(125, 247, 231, 136),
+              backgroundColor: Color.fromARGB(255, 247, 231, 136),
         leading: IconButton(
           icon: Image.asset('bilder/burgerMenu.png', width: 70, height: 70),
           onPressed: () {
@@ -24,11 +24,13 @@ class Orte extends StatelessWidget {
           },
         ),
       ),
-      backgroundColor: Color.fromARGB(125, 247, 231, 136),
+      backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
           Center(child: Text('Orte', style: TextStyle(
-            fontSize: 60,
+            fontSize: 20,
+            color: Color.fromARGB(255, 255, 255, 255),
+
           ))),
           SizedBox(height: 50),
           Kaserne(),
@@ -44,6 +46,7 @@ class Orte extends StatelessWidget {
         
       ),
       bottomNavigationBar: BottomAppBar(
+        color: const Color(0xFFF7E788),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.end,
