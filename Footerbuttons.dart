@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Quallen.dart';
+import 'package:test_1/Pages/Erpressum.dart';
 
 class Impressum extends StatefulWidget {
   const Impressum({super.key});
@@ -16,7 +17,7 @@ class _ImpressumState extends State<Impressum> {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Placeholder()),
+          MaterialPageRoute(builder: (context) => const Erpressum()),
         );
       },
     ); //Impressum
