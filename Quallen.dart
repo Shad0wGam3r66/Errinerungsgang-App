@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/Pages/Startseite.dart';
 
-class Quallen extends StatelessWidget {
-  const Quallen({super.key});
+class QuallenSeiten extends StatelessWidget {
+  const QuallenSeiten({super.key});
 
   @override
   Widget build(BuildContext context) {
