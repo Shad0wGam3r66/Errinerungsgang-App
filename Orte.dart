@@ -28,7 +28,7 @@ class Orte extends StatelessWidget {
       body: Column(
         children: [
           Center(child: Text('Orte', style: TextStyle(
-            fontSize: 20,
+            fontSize: 60,
             color: Color.fromARGB(255, 255, 255, 255),
 
           ))),
