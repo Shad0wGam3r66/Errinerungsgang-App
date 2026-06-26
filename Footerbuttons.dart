@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_1/Pages/Quallen.dart';
 
 class Impressum extends StatefulWidget {
   const Impressum({super.key});
@@ -59,7 +60,7 @@ class _QuallenState extends State<Quallen> {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Quallen()),
+          MaterialPageRoute(builder: (context) => const QuallenSeiten()),
         );
       },
     );
