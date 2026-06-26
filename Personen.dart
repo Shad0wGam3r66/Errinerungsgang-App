@@ -27,6 +27,7 @@ class Personen extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 72, 69, 64),
       body: Column(
         children: [
+          SizedBox(height: 130),
           Center(child: Text('Personen', style: TextStyle(
             fontSize: 60,
             color: Color.fromARGB(255, 255, 255, 255),
