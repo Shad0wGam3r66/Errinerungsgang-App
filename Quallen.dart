@@ -30,16 +30,49 @@ class QuallenSeiten extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-              Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
-            ],
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
+                  ),
+              ),
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
+                  ),
+              ),
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
+                  ),
+              ),
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
+                  ),
+              ),
+              Expanded(
+                flex: 2,
+                child: 
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Image.asset('bilder/qualle-quallentanz.gif', width: 200, height: 200),
+                  ),
+              ),
+            ]
           ),
+          
         ],
       ),
     );
